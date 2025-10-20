@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+// The expression uses 3.0 instead of 3 to perform floating-point division,
+// ensuring the result of the average is a double (which can include a decimal
+// fraction) rather than an integer (which would truncate the decimal part).
+
+
 public class SumOfThreeNumbers {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
