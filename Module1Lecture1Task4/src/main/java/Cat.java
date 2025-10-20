@@ -1,5 +1,3 @@
-package Assignment1;
-
 //The cat named Whiskers says: Meow!
 //The cat named Whiskers says: Meow!
 //The cat named Rex says: Meow!
