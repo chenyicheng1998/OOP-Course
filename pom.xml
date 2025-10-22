@@ -16,6 +16,18 @@
         <module>Module1Lecture2Task1</module>
         <module>Module1Lecture2Task2</module>
         <module>Module1Lecture2Task3</module>
+        <module>Module1Lecture3Task1</module>
+        <module>Module1Lecture3Task2</module>
+        <module>Module1Lecture3Task3</module>
+        <module>Module1Lecture3Task4</module>
+        <module>Module1Lecture4Task1</module>
+        <module>Module1Lecture4Task2</module>
+        <module>Module1Lecture4Task3</module>
+        <module>Module2Lecture1Task1</module>
+        <module>Module2Lecture1Task2</module>
+        <module>Module2Lecture1Task3</module>
+        <module>Module2Lecture1Task4</module>
+        <module>Module2Lecture2Tasks</module>
     </modules>
 
     <properties>
