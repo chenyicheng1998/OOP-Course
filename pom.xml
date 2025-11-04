@@ -35,6 +35,9 @@
         <module>Module3Lecture2Tasks</module>
         <module>Module3Lecture3Task1</module>
         <module>Module3Lecture3Task2and3</module>
+        <module>Module3Lecture4Task1</module>
+        <module>Module3Lecture4Task2</module>
+        <module>Module3Lecture4Task3</module>
     </modules>
 
     <properties>
