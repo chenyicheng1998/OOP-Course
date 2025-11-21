@@ -1,0 +1,41 @@
+/* General font settings - sans-serif for better readability */
+* {
+    -fx-font-family: "Arial", "Helvetica", sans-serif;
+    -fx-font-size: 14px;
+}
+
+/* Title styling */
+.label {
+    -fx-font-size: 14px;
+}
+
+/* Button styling */
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #45a049;
+}
+
+/* Text field styling */
+.text-field {
+    -fx-font-size: 14px;
+    -fx-padding: 8px;
+}
+
+/* ComboBox styling */
+.combo-box {
+    -fx-font-size: 14px;
+}
+
+/* Instructions section */
+.instructions {
+    -fx-font-size: 13px;
+}
+
