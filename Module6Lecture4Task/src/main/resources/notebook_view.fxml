@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.geometry.Insets?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/19"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="controller.NoteController"
+            prefHeight="500" prefWidth="600">
+
+    <VBox spacing="10" prefWidth="600" prefHeight="500">
+        <Label text="My Notebook App" style="-fx-font-size: 18; -fx-font-weight: bold;"/>
+
+        <VBox spacing="5" style="-fx-padding: 10;">
+            <Label text="Title:"/>
+            <TextField fx:id="titleField" prefWidth="300"/>
+
+            <Label text="Content:"/>
+            <TextArea fx:id="contentArea" prefWidth="300" prefHeight="100"/>
+
+            <HBox spacing="10">
+                <Button fx:id="addButton" text="Add" onAction="#addNote"/>
+                <Button fx:id="updateButton" text="Update" onAction="#updateNote" disable="true"/>
+                <Button fx:id="deleteButton" text="Delete" onAction="#deleteNote" disable="true"/>
+            </HBox>
+        </VBox>
+
+        <Label text="Saved Notes:" style="-fx-font-weight: bold;"/>
+        <ListView fx:id="notesListView" prefWidth="580" prefHeight="300"/>
+    </VBox>
+
+</AnchorPane>
